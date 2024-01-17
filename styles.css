@@ -1,0 +1,73 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    margin-top: 10px;
+    max-width: 80%;
+    padding: 30px;
+    margin: auto;
+    box-shadow: 10px 10px lightblue;
+    background-color: rgba(240, 248, 255, 0.5);
+    /* Set the opacity here */
+    border: 1px solid black;
+    border-radius: 20px;
+    background-blend-mode: lighten;
+}
+
+.container h1,
+p {
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Salsa', cursive;
+}
+
+p {
+    font-size: 20px;
+}
+
+input,
+textarea {
+    border: 2px solid black;
+    border-radius: 6px;
+    outline: none;
+    width: 80%;
+    margin: 11px auto;
+    padding: 7px;
+    font-size: 18px;
+}
+
+form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.btn {
+    color: whitesmoke;
+    background: purple;
+    padding: 15px 10px;
+    font-size: 15px;
+    border: 2px solid white;
+    border-radius: 14px;
+    cursor: pointer;
+    font-family: 'Salsa', cursive;
+
+}
+
+.btn :hover {
+    color: blue;
+}
+
+.bg {
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+
+}
